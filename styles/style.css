@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "Helvetica Neue Bold";
+  src: url(../fonts/helvetica_neue/HelveticaNeueLTStdBd.otf);
+}
+header {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  background-image: url("../images/banner1.png");
+  background-repeat: no-repeat;
+  background-size: 223px;
+  min-height: 335px;
+  background-color: #f2f0ef;
+}
+header div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-image: url("../images/banner2.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 100% 100%;
+  height: 100%;
+}
+header div h1 {
+  font-size: 0;
+  margin: 50px;
+}
+header div h1:after {
+  content: "";
+  background: url("../images/minutentag-logo.png") no-repeat;
+  display: block;
+  width: 160px;
+  height: 15px;
+}
+header div h2 {
+  font-size: 42px;
+  font-family: "Helvetica Neue Bold";
+  text-align: center;
+  color: #6F536F;
+  margin-top: 30px;
+  display: flex;
+  width: 65%;
+  margin: auto;
+}
+header div button {
+  border: none;
+  width: 30%;
+  margin-top: 30px;
+  padding: 0;
+  border-radius: 5px;
+}
+header div button a {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #6F536F;
+  font-size: 14px;
+  font-family: Helvetica;
+  font-weight: 500;
+  display: block;
+  padding: 10px 0;
+  box-shadow: 4px 6px 24px -9px black;
+  -webkit-box-shadow: 4px 6px 24px -9px black;
+  -moz-box-shadow: 4px 6px 24px -9px black;
+}
+header div button a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #6F536F;
+  transition: all 600ms;
+}
+
+section {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  background-color: #f2f0ef;
+}
+section div div h2 {
+  color: #6F536F;
+  font-size: 24px;
+  font-family: "Helvetica Neue Bold";
+}
+section .own-card {
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 3px #ccc;
+}
+section .own-card h3 {
+  color: #6F536F;
+  font-size: 14px;
+  font-family: Helvetica;
+  font-weight: 600;
+}
+section .own-card p {
+  color: #6F536F;
+  font-size: 13px;
+  font-family: Helvetica;
+}
+
+.own-button {
+  color: #6F536F;
+  font-size: 14px;
+  font-family: Helvetica;
+  border-radius: 0.5em;
+  border: 2px solid #6F536F;
+  transition: all 600ms;
+  font-weight: 600;
+}
+.own-button:hover {
+  background-color: #6F536F;
+  color: white;
+}
+.own-button:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #3a2d3a;
+}
+
+.own-button2 {
+  background-color: white;
+  color: #6F536F;
+  font-size: 14px;
+  font-family: Helvetica;
+  border-radius: 0.5em;
+  border: 2px solid #6F536F;
+  transition: all 600ms;
+  font-weight: 600;
+}
+.own-button2:hover {
+  background-color: #6F536F;
+  color: white;
+}
+.own-button2:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #3a2d3a;
+}
+
+.own-primary {
+  color: #6F536F;
+  font-family: Helvetica;
+}
+
+.container-icons div figure figcaption {
+  color: #6F536F;
+  font-size: 15px;
+  font-family: Helvetica;
+  font-weight: 700;
+}
+.container-icons div figure p {
+  color: #6F536F;
+  font-size: 13px;
+  font-family: Helvetica;
+}
+
+footer {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+footer h3 {
+  color: #6F536F;
+  font-size: 19px;
+  font-family: "Helvetica Neue Bold";
+}
+footer details > summary {
+  list-style: none;
+  color: #6F536F;
+  font-size: 12px;
+  font-family: Helvetica;
+  cursor: text;
+}
+
+/*# sourceMappingURL=style.css.map */
